@@ -1,0 +1,53 @@
+http://127.0.0.1:8000/
+
+###
+
+GET http://127.0.0.1:8000/ HTTP/1.1
+
+###
+
+POST http://127.0.0.1:8000/books/ HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Python for AI",
+    "author": "Random Person"
+}
+###
+
+PUT http://127.0.0.1:8000/books/100 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Python for AI - Updated",
+    "author": "Random Person - Updated"
+}
+
+###
+
+DELETE http://127.0.0.1:8000/books/100 HTTP/1.1
+
+
+###
+
+GET http://127.0.0.1:8000/books?title="Python for AI" HTTP/1.1
+
+###
+
+POST http://127.0.0.1:8000/book/create HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Python for AI (New)",
+    "author": "Random Person"
+}
+###
+
+POST http://127.0.0.1:8000/book/new/create HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Python for AI (AI Generated)",
+    "author": "Random AI Person"
+}
+###
