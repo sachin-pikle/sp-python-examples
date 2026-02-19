@@ -15,6 +15,7 @@
 2. Use pyenv to manage Python installations
     
     - Reference: pyenv without brew  https://github.com/pyenv/pyenv-installer?tab=readme-ov-file#install 
+    - Reference: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 
 3. Install Python
 
@@ -33,6 +34,7 @@
 4. Virtual environments 
 
     - Reference: Fast API - Virtual Environments https://fastapi.tiangolo.com/virtual-environments/
+    - Reference: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
     - One directory per project
     - Create a virtual environment in each project directory
     
